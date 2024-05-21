@@ -13,7 +13,6 @@ public class Car {
 	private double tankCap; // タンク容量
 	private double fuelRemain; // 残り燃料
 	private double fuelMilage; // 燃費
-	
 
 	// Constructors (コンストラクタ)
 	public Car(String name, String number, int width, int height, int length, double tankCap, double fuelRemain, double fuelMilage) {
