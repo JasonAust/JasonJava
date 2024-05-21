@@ -59,7 +59,7 @@ public class Car {
 	}
 
 	public boolean move(double moveX, double moveY) {
-		double distance = Math.sqrt(moveX * 2 + moveY * 2);
+		double distance = Math.sqrt(Math.pow(moveX, 2) + Math.pow(moveY, 2));
 		double fuelCons = distance * this.fuelMilage;
 		if (fuelCons > this.fuelRemain)
 			return false;
